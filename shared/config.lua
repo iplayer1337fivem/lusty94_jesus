@@ -85,18 +85,18 @@ Config.CoreSettings = {
 Config.Props = { -- props spawned inside the church
     {
         Model = 'prop_gravestones_09a', -- prop model
-        Coords = vector4(-775.87, -35.86, -15.97, 22.73), -- prop coords
+        Coords = vec4(-775.63, 7.85, 41.56, 166.1), -- prop coords
     },
     {
         Model = 'prop_gravestones_09a', -- prop model
-        Coords = vector4(-778.82, -36.98, -15.98, 20.59), -- prop coords
+        Coords = vec4(-785.5, -6.43, 41.09, 257.27), -- prop coords
     },
 }
 
 Config.ChurchZone = { -- lib.zone inside the church to play sound if enabled
-    Coords = vec3(-781.89, -24.11, -16.65), -- coords
+    Coords = vec3(-774.25, -10.11, 41.09), -- coords
     Size = vec3(20, 30, 20), -- size of zone
-    Heading = 198.0, -- heading of zone
+    Heading = 24.98, -- heading of zone --vec4(-774.25, -10.11, 41.09, 24.98)
 }
 
 
@@ -123,8 +123,8 @@ Config.InteractionLocations = {
         ExitIcon = 'fa-solid fa-sign-out', -- target icon for exit church
         ExitLabel = 'Exit Church', -- target label for exit church
         JesusDistance = 2.0, -- target distance for jesus ped
-        PlayerSpawn = vector4(-785.56, -14.25, -16.78, 201.95), -- player teleport location when entering church
-        JesusSpawn = vector4(-777.38, -36.55, -15.97, 18.89), -- jesus ped spawn location
+        PlayerSpawn = vec4(-767.62, -22.39, 41.19, 12.45), -- player teleport location when entering church
+        JesusSpawn = vec4(-781.48, 1.99, 41.56, 211.55), -- jesus ped spawn location
     },
 }
 
